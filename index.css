@@ -1,44 +1,14 @@
-#main {
-    background-image:url(https://media.istockphoto.com/id/535023883/pt/foto/rio-de-janeiro-na-noite.jpg?s=612x612&w=0&k=20&c=CrPiH6QGp4ibLVHy2NWsl4VGM8q1tB3Eu22_yl7DkLs=);
+* {
+    margin: 0;
+    padding: 0;
 }
-h1 {
-    text-align: center;
-    text-decoration-line:none;
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+#main-title {
+    color:aquamarine;
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 600;
     letter-spacing: -1px;
-    font-family: 'Times New Roman', sans-serif;
-    font-size: 95x;
-}  
-.perfil {   display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 20%;   
-                             
 }
-.info { 
-    font-family: 'Arial black', serif,;
-    font-size: 50px;
-    text-align: justify ;
-    letter-spacing: -2 ;
-    text-decoration: solid;
-    color:maroon;
-}                                          
-.título {
-    font-family: 'Arial black', serif,;
-    font-size: 30px;
-    text-align: justify ;
-    letter-spacing: -2 ;
-}
-.container  {
-    position: relative;
-    opacity: 1;
-}
-p { 
-    font-family: Verdana, 'Geneva', Tahoma, sans-serif;
-    font-size: 20px;
-}
-.itemlist {
-    font-family: Verdana, 'Geneva', Tahoma, sans-serif;
-    font-size: 18px;
-    
-}
-
