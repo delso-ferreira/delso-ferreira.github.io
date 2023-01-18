@@ -1,6 +1,8 @@
-<style>
+#main {
+    background-image:url(https://media.istockphoto.com/id/535023883/pt/foto/rio-de-janeiro-na-noite.jpg?s=612x612&w=0&k=20&c=CrPiH6QGp4ibLVHy2NWsl4VGM8q1tB3Eu22_yl7DkLs=);
+}
 h1 {
-    text-align: left;
+    text-align: center;
     text-decoration-line:none;
     letter-spacing: -1px;
     font-family: 'Times New Roman', sans-serif;
@@ -20,10 +22,6 @@ h1 {
     text-decoration: solid;
     color:maroon;
 }                                          
-body {
-    background-color:darkslategray  
-    opacity: 0.7;
-}
 .título {
     font-family: 'Arial black', serif,;
     font-size: 30px;
@@ -43,4 +41,4 @@ p {
     font-size: 18px;
     
 }
-</style>
+
