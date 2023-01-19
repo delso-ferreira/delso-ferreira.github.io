@@ -1,16 +1,39 @@
 * {
-    background-color: red;
+    
+    background-color: darkgrey;
     margin: 0;
     padding: 0;
 }
 body {
     font-family: 'Times New Roman', Times, serif;
 }
-#main-title {
-    color:azure;
-    font-size: 45px;
-    line-height: 55px;
-    font-weight: 600;
-    letter-spacing: -1px;
-    text-align: center;
+
+#header {   
+    background-color: black;
+    background-size:cover;
+    padding: 10px 30px;
+    margin: 50px 40px;
+    
+
+}
+.header-right {
+    float: right;
+    font-family: Orbitron; 
+    letter-spacing: +2;   
+    display: inline-block;
+    padding: 5px;
+    margin:3%;
+    background-color:black;
+    width: 50%;
+    
+    
+
+}
+.header-img {
+    border-radius: 50%;
+    padding: 5px;
+    width:100px ;
+    border-style:groove;
+    border-color:black;
+        
 }
