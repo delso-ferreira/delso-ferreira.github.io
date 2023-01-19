@@ -1,29 +1,32 @@
-* {
+ body {
     
-    background-color: darkgrey;
+    background-color: black;
     margin: 0;
     padding: 0;
+    font-family: Orbitron;
 }
-body {
-    font-family: 'Times New Roman', Times, serif;
-}
+  
 
 #header {   
-    background-color: black;
+    
+    background-color:rgb(145, 140, 140);
     background-size:cover;
     padding: 10px 30px;
     margin: 50px 40px;
+    border-radius: 15px;
+    
     
 
 }
 .header-right {
     float: right;
-    font-family: Orbitron; 
+    font-family: Merienda;
+    color:black;
     letter-spacing: +2;   
     display: inline-block;
     padding: 5px;
     margin:3%;
-    background-color:black;
+    background-color:rgb(145, 140, 140);
     width: 50%;
     
     
@@ -35,5 +38,27 @@ body {
     width:100px ;
     border-style:groove;
     border-color:black;
-        
+
 }
+
+.header-text {
+    color:black;
+    margin: 50px 40px;
+    background-color: rgb(145, 140, 140);
+    border-radius:15px;  
+    padding:15px 30px;
+    font-weight: 700;
+}
+#abilities {
+    color:black;
+    margin: 50px 40px;
+    background-color: rgb(145, 140, 140);
+    border-radius:15px;  
+    padding:10px 5px 5px 5px;        ;
+    font-weight: 700;
+    width: 10%;
+    
+}
+    
+    
+
