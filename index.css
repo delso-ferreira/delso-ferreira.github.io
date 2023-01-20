@@ -72,19 +72,21 @@
     
     }
     
-#abilities-content {
-
-        padding: 20px 20px;
+#abilities {
+        
+        padding: 40px 20px;
+        
 }
 
 .abilities-content {
 
-    width: 20%;
-    display: inline-block;
-    padding: 1%;
+    width: 30%;
+    display:inline-block;
+    padding: 1.5%;
+    
 }
 .abilities-content-img {
 
-    width: 100px;
+    width: 40px;
     border-radius: 50%;
 }   
