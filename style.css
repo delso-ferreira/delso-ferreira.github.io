@@ -1,0 +1,64 @@
+#body {
+    background-color: rgb(253, 251, 251);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    font-size:smaller;
+    line-height: 1.5;
+    
+}
+
+#cabecalho{
+    top: 0px;
+    position: fixed;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: auto;
+    font-family: 'Cultive';
+    font-size: large;
+    background-color:burlywood;
+    
+    }
+#minha_foto {
+    position: relative;
+    width: 10%;
+    display: inline-block;
+    margin-left: 400px;
+    margin-top: -50px;
+    border-radius: 50%;
+    padding: -10px;
+}
+#link {
+    display: inline-block;
+    margin-left: 80px;
+    margin-right: 60px;
+    padding: 5px;
+}
+#table {
+    text-align: left;
+    display: inline-block;
+    margin-left: 40%;
+    margin-top: 80px;
+}
+footer{
+    margin-left: 37%;
+}
+article {
+    margin: 3%;
+    padding: 10px;
+    height: 40px;
+    text-align: justify;
+}
+.lado-direito{
+    margin: 3%;
+    padding: 10px;
+    text-align: justify;
+    display: inline-block;
+    float: right;
+    width: 40%;
+}
+.lado-esquerdo{
+    display: inline-block;
+    float:left;
+    width: 43%;
+}

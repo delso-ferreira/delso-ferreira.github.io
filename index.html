@@ -1,43 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-       <title>Delso Ferreira - Webdev Student at Trybe</title>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="index.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merienda">
-                <link href="https://www.betrybe.com/static/icons/favicon-web.ico" rel="shortcut icon">
-           </head>
-    <body>
-            <div id="header">
-                <h1 class="header-right">Bem Vindo(a)</h1>
-                <img src= ../imagens/TMDDFEPFU-U04HTAUTKEE-584cb293cd17-512.jpeg alt="Estudante Delso sorrindo dentro de uma biblioteca" class="header-img">
-               </div>
-               <div class="header-text">
-                <p>Olá, meu nome é Delso Ferreira, sou estudante de Desenvolvimento Web pela Trybe,
-                    atualmente resido em Nova Iguaçu, RJ, BR. Ainda estou no decorrer do curso e aplicando minhas descobertas
-                    em diversos projetos e exercícios</p>
-                
-                    <p>Sou apaixonado por RPG, jogos de tabuleiro e música, sendo baterista nas horas vagas. </p><br>
-                    </div>
-                 <div class="abilities center-abilities"><p><strong>Habilidades</strong></p></div> 
-            <div class="abilities-content">           
-                <img src="data:image/png;base64,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" class="abilities-content-img">
-                <p><strong>Javascript</p></strong> 
-            </div>
-            <div class="abilities-content">    
-            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAqFBMVEX///8AZ4zOiywAWIIAY4nNhyAAXoYAYYjNiigAW4TetIMAVoH7/P3LgQDdsX9wmbBbjKb8+fbbrXi8ztjTmU7t8/agusnhuo758erSlkitw9DaqXD47+Z3n7TQkTzYpGU2eZmTscLMhBTb5erH1t/m7fHX4ujx4M7D09wmcpSFqLtPhqLVnln16Nvu2cPoy6zkwp3nyKdBf50ASXlkk6vr1LrQkDfIeQCFwLn4AAAJCUlEQVR4nO2cfV/qLBjHhzCQtqVmWlmWzqfUMjXrfv/v7GbAdFOcs6Mt/FzfP85ZAxc/ebgeYDkOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOxj8PraK7oNZ6XqUc5pZVh0O87GlDLKCGK481p0U85Dz2OVfmvqMYTwclB0a85Bk6Lov8EEM0S8VtHNOQMtStSFP8EE4cmwN2gU26JT08O8ry8bS4oY5xyzVfOSxmuHjdfXK0wpY4QQisfNAtt0WoYeba9/6Nebk/ZqHM1JyuoFtuqkTCjeXmAGXUIJ4hezti4J3pVSH3Oxtl7IUPUZGRtutxhDtHMZC2vfoxPT/baHCL6M2dilnva9/XrT39wfEoa8tvkzltFhU30l/PDkwKxyRJe+6SOWMeRevNgsaTVZ0hQjdXwJk5HQrr4aeChV0seIkAuQWGFrXdOtVacnTCOzX+Irx3Gcv2MbB0LiBfQiXQ/TXQYUGS2mXbRZhoaemIvL32vLeRhyg+u2pu8har1dRBnDVBgNjjzbvZtuHOybqTLELV9tfI9mZmmEVbR9Kk6yO3EopqLlwZTPsxeTCUPY8nHa5DvBfgph96tZ5RawZJnrZZ0jbHvuv5Nl9kUxIdOscgvo0k5WcV8YRcuTU5QZsxlrxuRAhb9Oj/PsedakiP5SW85Di6LsCj5G2W7BX2eV6ZpGtIndYdShQSpTHOuNHAsR0/BgnarVBqPOOwfrDDHC9h5r6PLV4UpLwnLU+qO0eY4wvo+RZ63/XTHvXmzRQcTafMaKxwrbGUZP+N/WdmIlHqV1LytKEkFU5Vfac3omeqVp4MxQt8ms7cSmjixEMJ/lYPs8s/gv86otPkMIZdn+LrU1nTHAPDLmPYwQy0w6MWsz4CqZVqcINVlW3q2OEaETG7txQqPAoctI1eGZnbjC0WHGlX1JmyGOMk0VxrpirtGsve361KOE4I51cYbczp8SEeX6+MB66derHmW4atkef9/jTQfJELBLDyadGs0xZdyy/ZoKpR2CvKhjOjRHIFgX3WhZqLEUC6mS5pM822l+FTNkV8A4wd5Uza1B9mITU+f2Hi0e4FzbFI0lt/bcVIPn65wW57Ymb/xxviR+o0Ot3ZVqH/bN/EGvN6T8UKr1z9LNXG36kyXHnHNK2Kd1/k3M/mP7/TaVb9tQzr1x+9Uy7ybBPoX+pwgkGaeV1tDyLbe9VBhiXbus/ZEMPGRzij8PLYxYzgPEvX4/eyiLCn9xOExEsJ/DK2hNsXzZaL9B6TJZY/oT9+/pa351db3LfFPlfja/SzP/eN8U127kBxampzc9gmgnO9b3x5wgyd5TAh2qKhB+9O7kx3MQuibCl7j9829DlTAMHkdxjUDeuTH+gh6KXurLDJbbuvmCPZs6K7auceQJyPdyWC6ZcbXCj8DdU8UN3mpaofzRrDB6KYNkH+ffNB8hz9TdQ5yowY4SGOjGl3fRCu+CtaJEYayxXMuh0OmJEJGh/d6dl2y/qROrahCrf71jFJZkU8th8HC7w8N1VGOkBYo6pecNbuAqiW95FAqzUfEo2tuLsodIRXfi7jfRUF/BeCUl4iMEjkLZ+O/3/VXeVHe5t6P0/dpCfrYURJ89rFC0cuXtXSOkQtZuytFqWE8nsoC2jlc4lx0RjjKqqC4sv+yWqN4NP5x8CqPzUvviJ6Wwokfrzjzz1SzkerAeo/BOKgzu99e4VwpDUy/fRt3r3jl5FTr+co9/Eyts677aKm7KpZZNzqnQWOXRPVKhMNtmix4rHKgJuT2aSTw/kwr9hsQwt3tDSTEKHbNHEiuMJaQNRp1vFcu7w08s8AxfmXSP+KdfjEIza4XK7m2dwh1LXdHLgSmFUrdp70TXSijMWml+WaHTITsGoy+lyBDleIVqxS+//R2F9XhR2TCVDZYnyY5XqFpWch++3p9i7mtFKnSU1U8c4Bx4m9XneIXOlzZ3wo1O8DZfG4dfV9iiWwajTTY3fqDQmYVuaYeyGzyMClLo0LTB0NaeJdt+lELh15RF6FPejh7KwXVBCrtsPe02P+pTrT9TKAKMxc3tdywtDHQ4FV4Xo1B52WuDoQIr3dyfKkxTG72ogRs8FaIwys9FBkPlbNS0ZO1U2/9RoUBJlD51AQqV66YNhrb2gxMrnIVFKowNYHSprX08ZC9FYX/T9mXaT00ppOdQ+PL8EKGzM+dS6Ixlx6Hob3DJq85W27e/hxMqdF5CmcEp1c6qUAUT/FUvOpuzHGdUuHbOb0LlEkTr7Ns6AlaZAFMi4EcKVUAofG2dYdtuu7xW89B0GDmHwke1ln6t255wzlXqrRy8O++q42QaWJnQoLbviUcq1AkblZZJdFMqxpcKkeGwzuqQwqfHcGMP15molydd/KFLF9pqyt5VYVi5NPuZxm2FuvUqtk+c8kwpbKmsDkerdppxwkm4UitHkucwzhM+yufE2UQ3KL1IbrT7o2qVv2WtWuzBB+7uI7+d++eH59lXyXEe7vIpnCRS3IlIKp2nmXg6i0rYBkL0/oBSeOPuJoJj7+1BP+dqnREuq3R+KUE50FHIKE4tG3LLgSh/rjmL59lT6TqfQp/HAknyxM5WJqqPeDJbniZWWDLjBpsvexHsqyUCy3jsOk8Pe6tJhffO4uPtbmFU6Hsk+gNwycPvQ0+1naVyNlMaVUzkvF8rDHO6BUkofDTuyYihdpe08PdXYVQvTvbLKipX/pCo5Yxu3CA0PTBS+H3vzGc3z+9mg1KJpk8ltfA32sjDHkof9OjKeZZ+DWDQr7fSdJJZjOurXeZfu8nR0eLq8UVzc3W3+LiVHebepqs9zT7mdzsPjFRd1Zyv0fvX03zn0Rn88GDD9LC1yMObXFLd758aiDOSwx7mQtmUspuRiiwIHY/8+4O07Tcm/IukuZUH+QcWYmER/Dc7wbOOx68b6Y7VfvJpXkZ+n40Es69TPOtoBp/bVkLClK1gnUIadVIayY3vLYi1Rz2T7FVIGEe2nkhOMZB7Tzt4dNq17zUWMw0j9h5/BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAuAT+ByWluE7u1LwYAAAAAElFTkSuQmCC" class="abilities-content-img">
-                <p><strong>SQL</strong></p>
-                </div>
-                <div class="abilities-content">
-                <img src="data:image/png;base64,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" class="abilities-content-img">
-                <p><strong>HTML</p>  
-                    </div>
-                </div> 
-            </div>
-                <a href="../imagens/TMDDFEPFU-U04HTAUTKEE-584cb293cd17-512.jpeg" target="_blank">Imagem</a>
-                <a href="https://form.typeform.com/to/giBzmdvJ?typeform-medium=embed-snippet&utm_source=website&utm_medium=website&utm_campaign=worldofdarkness&utm_content=button&typeform-source=www.worldofdarkness.com" target="_blank">Um quiz aterrorizante!</a>
-                 
-            </body>
-                    
+
+<head>
+    <title>Delso - Lessons Learned</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Cutive"></head>
+
+<body id="body">
+    <header id="cabecalho">
+        <nav>
+            <h1 id="titulo">Projeto Lessons Learned</h1>
+            <a href="www.gmail.com" target="_blank" id="link">Contato</a>
+            <img src="https://avatars.githubusercontent.com/u/102612163?v=4" alt="Imagem de Delso sorrindo" id="minha_foto">
+        </nav>
+            </header>
+    <main>
+        <h2>Lições a aprender</h2>
+        <ul id="licoes_a_aprender">
+            <li>Dom</li>
+            <li>Node</li>
+            <li>React</li>
+            <li>Auto Liderança</li>
+            <li>Flexbox</li>
+            <li>ES6</li>
+            <li>SQL</li>
+            <li>MongoDB</li>
+            <li>Carreira</li>
+            <li>Python</li>
+        </ul>
+        <h2>Lições aprendidas</h2>
+        <ol id="licoes_aprendidas">
+            <li>Javascript</li>
+            <li>Slack</li>
+            <li>Zoom</li>
+            <li>HTML</li>
+            <li>HTML Semântico</li>
+            <li>CSS</li>
+            <li>Auto Liderança</li>
+            <li>Comunicação</li>
+            <li>Unix</li>
+            <li>Bash</li>
+        </ol>
+        <article class="lado-esquerdo">
+            <p>Dentro da trybe venho aprendendo muitas coisas, com ótimos professores e instrutores. Uma das principais
+                diferenças que percebi no curso é a valorização das Soft Skills, praticamente todos os dias temos um
+                momento
+                específico para o desenvolvimento dessas habilidades, o que faz muita diferença no mercado de trabalho,
+                digo
+                isso por experiência própria, no entanto, o que mais estou ansioso é para quando o foco vai ser colocado
+                no desenvolvimento da Carreira.</p>
+            </p>
+        </article>
+        </main>
+    <aside class="lado-direito"><p>Nascido em Japeri e morador de Nova Iguaçu, tenho 33 anos, me formei em Arquivoloia pela Universidade Federal
+        do Rio de Janeiro e agora sou estudante de Web Dev pela Trybe.</p></aside>
+        <table id="table">
+            <caption><p>Sobre mim</caption></p>
+            <tr>
+            <th>Idade</th>
+            <td>33</td>
+            </tr>
+            <tr>
+                <th>Cidade</th>
+                <td>Nova Iguaçu</td>
+            </tr>
+            <tr>
+                <th>Hobby</th>
+                <td>Rpg e Música</td>
+            </tr>    
+        </table>
+    <footer id="rodape"><p>'Criado por Delso Ferreira em 2023'</footer></p>
+</body>
+
 </html>
