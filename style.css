@@ -1,47 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
 #body {
     background-color: rgb(253, 251, 251);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:black;
     font-size:smaller;
     line-height: 1.5;
+    position: relative;
     
 }
 
 #cabecalho{
     top: 0px;
     position: fixed;
-    text-align: center;
-    margin-left: 200px;
-    margin-right: 200px;
-    padding: auto;
+    top: 0;
+    width: 100%;
+    text-align: center; 
     font-family: 'Cultive';
     font-size: large;
-    background-color:burlywood;
-    
+    background-color: #7449fe;
+}
+ 
+.navmenu{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:50px;
+}
+
+a{
+    color: white;
+    text-decoration:none;
+}
+
+.container{
+    width: 1280px;
+    margin: auto;
+}
+@media(max-width:1280px){
+    .container{
+        width: 100%;
     }
-#minha_foto {
-    position: relative;
+}
+.navbar{
+    width: 95%;
+    margin: auto;
+    min-height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section{
+    margin-top: 7%;
+    font-size: smaller;
+}
+
+.licoes_a_aprender{
+    display: inline-block;
+    float: left;
+    margin-left: 300%;
+
+}
+
+.licoes_aprendidas{
+    margin: auto;
+    padding: 10px;
+    text-align: justify;
+    display:inline-block;
+    float:right;
     width: 10%;
-    display: inline-block;
-    margin-left: 400px;
-    margin-top: -50px;
-    border-radius: 50%;
-    padding: -10px;
+
 }
-#link {
-    display: inline-block;
-    margin-left: 80px;
-    margin-right: 60px;
-    padding: 5px;
-}
-#table {
-    text-align: left;
-    display: inline-block;
-    margin-left: 40%;
-    margin-top: 80px;
-}
+
 footer{
     margin-left: 37%;
+    margin-top: 30%;
+    margin-bottom: -50px;
 }
 article {
     margin: 3%;
