@@ -1,104 +1,52 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
     
 }
 
-#body {
-    background-color: rgb(253, 251, 251);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:black;
-    font-size:smaller;
-    line-height: 1.5;
-    position: relative;
-    
-}
-
-#cabecalho{
-    top: 0px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    text-align: center; 
-    font-family: 'Cultive';
-    font-size: large;
-    background-color: #7449fe;
-}
- 
-.navmenu{
-    list-style: none;
+.card-body{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap:50px;
+    flex-direction: column;
+    border: 1px solid black;
+    
 }
 
-a{
-    color: white;
-    text-decoration:none;
+article{
+    margin-top: 20px;
+    border: 1px solid black;
+    text-align: justify;
+
 }
 
-.container{
-    width: 1280px;
-    margin: auto;
-}
-@media(max-width:1280px){
-    .container{
-        width: 100%;
-    }
-}
 .navbar{
-    width: 95%;
-    margin: auto;
-    min-height: 60px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
+    padding: 10px;    
 }
 
 section{
-    margin-top: 7%;
-    font-size: smaller;
+    display: flex;
+    justify-content: space-around;
+    
 }
 
-.licoes_a_aprender{
-    display: inline-block;
-    float: left;
-    margin-left: 300%;
-
+.list-group{
+    list-style: none;;
 }
 
-.licoes_aprendidas{
-    margin: auto;
-    padding: 10px;
-    text-align: justify;
-    display:inline-block;
-    float:right;
-    width: 10%;
+strong{
+    color: rgb(223, 217, 217);
+}
 
+.card-title, .card-text{
+    color: black;
 }
 
 footer{
-    margin-left: 37%;
-    margin-top: 30%;
-    margin-bottom: -50px;
-}
-article {
-    margin: 3%;
-    padding: 10px;
-    height: 40px;
-    text-align: justify;
-}
-.lado-direito{
-    margin: 3%;
-    padding: 10px;
-    text-align: justify;
-    display: inline-block;
-    float: right;
-    width: 40%;
-}
-.lado-esquerdo{
-    display: inline-block;
-    float:left;
-    width: 43%;
+    margin-top: 8%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    
 }
